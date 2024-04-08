@@ -149,14 +149,13 @@
                         "type": "json",
                         "url": "https://api.github.com/repos/Lime3DS/Lime3DS/releases/latest",
                         "version-query": ".tag_name",
-                        "url-query": ".assets[] | .browser_download_url | match(\"https://.+lime-unified-source-.+.xz$\") | .string",
+                        "url-query": ".assets[] | .browser_download_url | match(\"https://.+lime3ds-unified-source-.+.xz$\") | .string",
                         "is-main-source": true
                     }
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/Lime3DS/lime3ds-flatpak/973a8e66d678a71abe3f8d298814c9a3665238be/io.github.lime3ds.Lime3DS.metainfo.xml",
-                    "sha256": "20c4c3342e99dc77d9a1957139ac9c0255c3f5159101ec615bd9a7b0ee1484c9"
+                    "path": "io.github.lime3ds.Lime3DS.metainfo.xml"
                 },
                 {
                     "type": "file",

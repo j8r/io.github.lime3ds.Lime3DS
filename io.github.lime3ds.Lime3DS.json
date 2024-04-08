@@ -53,8 +53,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/KhronosGroup/glslang/archive/14.0.0.tar.gz",
-                    "sha256": "80bbb916a23e94ea9cbfb1acb5d1a44a7e0c9613bcf5b5947c03f2273bdc92b0",
+                    "url": "https://github.com/KhronosGroup/glslang/archive/14.1.0.tar.gz",
+                    "sha256": "b5e4c36d60eda7613f36cfee3489c6f507156829c707e1ecd7f48ca45b435322",
                     "x-checker-data": {
                         "type": "anitya",
                         "stable-only": true,
@@ -64,26 +64,26 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/sdk-1.3.261.1.tar.gz",
-                    "sha256": "ead95c626ad482882a141d1aa0ce47b9453871f72c42c0b28d39c82f60a52008",
+                    "url": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.3.280.0.tar.gz",
+                    "sha256": "703c772a850fa7fbe57a2f8dc99b4c1422a59fa5ff098a80c8ce12fcdf6a2613",
                     "dest": "External/spirv-tools",
                     "x-checker-data": {
                         "type": "anitya",
                         "stable-only": true,
                         "project-id": 334920,
-                        "url-template": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/sdk-$version.tar.gz"
+                        "url-template": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-$version.tar.gz"
                     }
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/sdk-1.3.261.1.tar.gz",
-                    "sha256": "32b4c6ae6a2fa9b56c2c17233c8056da47e331f76e117729925825ea3e77a739",
+                    "url": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.3.280.0.tar.gz",
+                    "sha256": "a00906b6bddaac1e37192eff2704582f82ce2d971f1aacee4d51d9db33b0f772",
                     "dest": "External/spirv-tools/external/spirv-headers",
                     "x-checker-data": {
                         "type": "anitya",
                         "stable-only": true,
                         "project-id": 334920,
-                        "url-template": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/sdk-$version.tar.gz"
+                        "url-template": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-$version.tar.gz"
                     }
                 }
             ]
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2106/lime3ds-unified-source-20240404-5913d83.tar.xz",
-                    "sha256": "08ffe64b858a296b14bf79c02a2840432ff6077022c62f344473506bfe36a9fd",
+                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2107/lime3ds-unified-source-20240407-15c9e3e.tar.xz",
+                    "sha256": "5619e8b84aa7c13a3e04fd291a4f3ba7652640a3d7ae34a8212e5441cf35182d",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Lime3DS/Lime3DS/releases/latest",
@@ -155,8 +155,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/Lime3DS/lime3ds-flatpak/b2a802684a93d36ddc53b689e22ffd261502860e/io.github.lime3ds.Lime3DS.metainfo.xml",
-                    "sha256": "334ea93a1839f905322d0cef8e3705e314571f49a91aa2710ed23291c86d95d5"
+                    "url": "https://raw.githubusercontent.com/Lime3DS/lime3ds-flatpak/973a8e66d678a71abe3f8d298814c9a3665238be/io.github.lime3ds.Lime3DS.metainfo.xml",
+                    "sha256": "20c4c3342e99dc77d9a1957139ac9c0255c3f5159101ec615bd9a7b0ee1484c9"
                 },
                 {
                     "type": "file",

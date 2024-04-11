@@ -27,6 +27,13 @@
   </screenshots>
   <releases>
 
+    <release version="2108" date="2024-04-11">
+      <description>
+        <p>- Updated dependencies</p>
+        <p>- Logging improvements for unrecoverable exceptions</p>
+      </description>
+    </release>
+
     <release version="2107" date="2024-04-08">
       <description>
         <p>- Enabled SPIR-V optimization, allowing for smaller compiled Vulkan shaders</p>

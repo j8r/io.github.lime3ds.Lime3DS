@@ -32,7 +32,7 @@
         <p>- Improved rasterizer cache validation heuristic</p>
         <p>  - This results in extreme performance improvements for several games. See https://github.com/PabloMK7/citra/pull/69#issue-2234452232 for examples</p>
         <p>- Non-user facing code improvements related to the removal of telemetry</p>
-        <p/>
+        <p>‎ </p>
         <p>Notes:</p>
         <p>- This update introduces a regression in Luigi's Mansion: Dark Moon while using Vulkan. This involves a consistent crash during the first Pixelator cutscene. Please use OpenGL for the time being when playing this game. Apologies for any inconvenience</p>
       </description>

@@ -9,7 +9,8 @@
     <content_attribute id="social-chat">moderate</content_attribute>
   </content_rating>
   <description>
-    <p>Lime3DS is a project which aims to revive and continue work on Citra, a popular open-source Nintendo 3DS emulator which ceased development.</p>
+    <p>Lime3DS is a fork of Citra, a popular open-source Nintendo 3DS emulator which ceased development.</p>
+    <p>This project aims to pick up where Citra left off, continuing to fix bugs and implement new features.</p>
   </description>
   <launchable type="desktop-id">io.github.lime3ds.Lime3DS.desktop</launchable>
   <provides>

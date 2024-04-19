@@ -29,6 +29,19 @@
   </screenshots>
   <releases>
 
+    <release version="2110" date="2024-04-20">
+      <description>
+        <p>- Fixed a crash when entering fullscreen while playing Super Smash Bros. 3DS on Vulkan</p>
+        <p>- Minor across-the-board performance improvements on Mali GPUs</p>
+        <p>- Updated build environments</p>
+        <p>  - Formatting: Clang 15 --> 18</p>
+        <p>  - Linux build: Clang 15 --> 18</p>
+        <p>‎ </p>
+        <p>Notes:</p>
+        <p>- The Smash Bros fix included a large restructure of several sections of the Vulkan renderer. This may result in compatibility improvements for other games which we did not expect. Please feel free to share these with us if you find any!</p>
+      </description>
+    </release>
+
     <release version="2109" date="2024-04-15">
       <description>
         <p>- Improved rasterizer cache validation heuristic</p>

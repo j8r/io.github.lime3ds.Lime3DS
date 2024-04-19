@@ -4,7 +4,7 @@
     "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm17"
+        "org.freedesktop.Sdk.Extension.llvm18"
     ],
     "command": "lime3ds-launcher",
     "rename-desktop-file": "lime-qt.desktop",
@@ -15,8 +15,8 @@
     ],
     "copy-icon": true,
     "build-options": {
-        "append-path": "/usr/lib/sdk/llvm17/bin",
-        "prepend-ld-library-path": "/usr/lib/sdk/llvm17/lib",
+        "append-path": "/usr/lib/sdk/llvm18/bin",
+        "prepend-ld-library-path": "/usr/lib/sdk/llvm18/lib",
         "cflags": "-Wno-unused-command-line-argument",
         "cxxflags": "-Wno-unused-command-line-argument"
     },
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2109/lime3ds-unified-source-20240413-2733189.tar.xz",
-                    "sha256": "ce1daa97d69205fa8b4da309116c34f6c12240b07915f224d0ce4e418f6cf3ea"
+                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2110/lime3ds-unified-source-20240419-274afb7.tar.xz",
+                    "sha256": "3824f7a7bec5e365f078e4f9fbaf7b32654ad3cbe568d1c56b1dbc3add992f06"
                 },
                 {
                     "type": "file",

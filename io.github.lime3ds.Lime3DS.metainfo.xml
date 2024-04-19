@@ -19,11 +19,12 @@
   <url type="homepage">https://lime3ds.github.io/</url>
   <url type="bugtracker">https://github.com/Lime3DS/Lime3DS/issues</url>
   <url type="contact">https://discord.com/invite/4ZjMpAp3M6</url>
-  <screenshots> <!-- TODO: Replace these with new screenshots -->
-    <screenshot type="default"><image>https://raw.githubusercontent.com/Lime3DS/lime3ds-flatpak/3b640251d497ae117686c1aed6de6f19e1bf1f6e/screenshots/01-Super%20Mario%203D%20Land.jpg</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/Lime3DS/lime3ds-flatpak/3b640251d497ae117686c1aed6de6f19e1bf1f6e/screenshots/02-Mario%20Kart%207.jpg</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/Lime3DS/lime3ds-flatpak/3b640251d497ae117686c1aed6de6f19e1bf1f6e/screenshots/28-The%20Legend%20of%20Zelda%20Ocarina%20of%20Time%203D.jpg</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/Lime3DS/lime3ds-flatpak/3b640251d497ae117686c1aed6de6f19e1bf1f6e/screenshots/35-Pok%C3%A9mon%20ORAS.png</image></screenshot>
+  <screenshots>
+    <screenshot type="default"><image>https://raw.githubusercontent.com/Lime3DS/Branding/8a581a8e8bc52b88df82df142b5b4e6d1ef2d2cb/Screenshots/pokemon-ultra-moon.png</image></screenshot>
+    <screenshot><image>https://raw.githubusercontent.com/Lime3DS/Branding/8a581a8e8bc52b88df82df142b5b4e6d1ef2d2cb/Screenshots/star-fox-64-3d.png</image></screenshot>
+    <screenshot><image>https://raw.githubusercontent.com/Lime3DS/Branding/8a581a8e8bc52b88df82df142b5b4e6d1ef2d2cb/Screenshots/luigis-mansion-dark-moon.png</image></screenshot>
+    <screenshot><image>https://raw.githubusercontent.com/Lime3DS/Branding/8a581a8e8bc52b88df82df142b5b4e6d1ef2d2cb/Screenshots/new-super-mario-bros-2.png</image></screenshot>
+    <screenshot><image>https://raw.githubusercontent.com/Lime3DS/Branding/8a581a8e8bc52b88df82df142b5b4e6d1ef2d2cb/Screenshots/metroid-samus-returns.png</image></screenshot>
   </screenshots>
   <releases>
 

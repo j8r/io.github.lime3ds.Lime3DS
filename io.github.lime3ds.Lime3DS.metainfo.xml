@@ -11,6 +11,7 @@
   <description>
     <p>Lime3DS is a fork of Citra, a popular open-source Nintendo 3DS emulator which ceased development.</p>
     <p>This project aims to pick up where Citra left off, continuing to fix bugs and implement new features.</p>
+    <p><em>Note: Patch notes only reflect changes relevant to the Flatpak release. For full changelogs, visit the project's GitHub page</em></p>
   </description>
   <launchable type="desktop-id">io.github.lime3ds.Lime3DS.desktop</launchable>
   <provides>
@@ -28,6 +29,17 @@
     <screenshot><image>https://raw.githubusercontent.com/Lime3DS/Branding/8a581a8e8bc52b88df82df142b5b4e6d1ef2d2cb/Screenshots/metroid-samus-returns.png</image></screenshot>
   </screenshots>
   <releases>
+
+    <release version="2111" date="2024-04-29">
+      <description>
+        <p>- Updated log filenames</p>
+	      <p>  - citra_log.txt --> lime3ds_log.txt</p>
+	      <p>  - citra_log.txt.old.txt --> lime3ds_log.old.txt</p>
+        <p>‎ </p>
+        <p>Notes:</p>
+        <p>- It is recommended to delete the old `citra_log.XXX` files to avoid accidentally sending them instead of the newer files when filing bug reports</p>
+      </description>
+    </release>
 
     <release version="2110" date="2024-04-20">
       <description>

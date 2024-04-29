@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2110/lime3ds-unified-source-20240419-274afb7.tar.xz",
-                    "sha256": "3824f7a7bec5e365f078e4f9fbaf7b32654ad3cbe568d1c56b1dbc3add992f06"
+                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2111/lime3ds-unified-source-20240429-09196d7.tar.xz",
+                    "sha256": "dec35cdd66aea96639e6fa8e2121f45f474fbe94923d13edbe51efc98a7ea51e"
                 },
                 {
                     "type": "file",

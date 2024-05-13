@@ -15,8 +15,8 @@
   </description>
   <launchable type="desktop-id">io.github.lime3ds.Lime3DS.desktop</launchable>
   <provides>
-    <binary>lime-qt</binary>
-    <id>lime-qt.desktop</id>
+    <binary>lime3ds-gui</binary>
+    <id>lime3ds-gui.desktop</id>
   </provides>
   <url type="homepage">https://lime3ds.github.io/</url>
   <url type="bugtracker">https://github.com/Lime3DS/Lime3DS/issues</url>
@@ -29,6 +29,20 @@
     <screenshot><image>https://raw.githubusercontent.com/Lime3DS/Branding/8a581a8e8bc52b88df82df142b5b4e6d1ef2d2cb/Screenshots/metroid-samus-returns.png</image></screenshot>
   </screenshots>
   <releases>
+
+    <release version="2112" date="2024-05-13">
+      <description>
+        <p>- Added support for Artic Base</p>
+        <p>- Desktop: Added favourite game functionality</p>
+        <p>- Desktop: Added play time counter</p>
+        <p>- Windows+Linux: Added game desktop shortcut functionality</p>
+        <p>- Desktop: Updated right-click user interface layout</p>
+        <p>- Updated executable names to follow a new naming scheme</p>
+        <p>  - `lime.exe` --> `lime3ds-cli.exe`</p>
+        <p>  - `lime-qt.exe` --> `lime3ds-gui.exe`</p>
+        <p>  - `lime-room.exe` --> `lime3ds-room.exe`</p>
+      </description>
+    </release>
 
     <release version="2111" date="2024-04-29">
       <description>

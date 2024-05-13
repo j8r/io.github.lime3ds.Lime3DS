@@ -7,7 +7,7 @@
         "org.freedesktop.Sdk.Extension.llvm18"
     ],
     "command": "lime3ds-launcher",
-    "rename-desktop-file": "lime-qt.desktop",
+    "rename-desktop-file": "lime3ds-gui.desktop",
     "rename-mime-file": "lime.xml",
     "rename-icon": "lime",
     "rename-mime-icons": [
@@ -135,16 +135,16 @@
             "post-install": [
                 "install -Dm755 ../lime3ds-launcher.sh /app/bin/lime3ds-launcher",
                 "install -Dm644 ../io.github.lime3ds.Lime3DS.metainfo.xml /app/share/appdata/io.github.lime3ds.Lime3DS.metainfo.xml",
-                "desktop-file-install --dir=/app/share/applications ../dist/lime-qt.desktop",
-                "desktop-file-edit --set-key StartupWMClass --set-value lime-qt --set-key Exec --set-value lime3ds-launcher /app/share/applications/lime-qt.desktop",
+                "desktop-file-install --dir=/app/share/applications ../dist/lime3ds-gui.desktop",
+                "desktop-file-edit --set-key StartupWMClass --set-value lime3ds-gui --set-key Exec --set-value lime3ds-launcher /app/share/applications/lime3ds-gui.desktop",
                 "install -Dm644 ../dist/lime.svg /app/share/icons/hicolor/scalable/apps/lime.svg",
                 "install -Dm644 ../dist/icon.png /app/share/icons/hicolor/512x512/apps/lime.png"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2111/lime3ds-unified-source-20240429-09196d7.tar.xz",
-                    "sha256": "dec35cdd66aea96639e6fa8e2121f45f474fbe94923d13edbe51efc98a7ea51e"
+                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2112/lime3ds-unified-source-20240511-467afbb.tar.xz",
+                    "sha256": "f1305384f7370da51dd7a58a95598afeca2e093dc9ada8bc748cbe146d744ff5"
                 },
                 {
                     "type": "file",

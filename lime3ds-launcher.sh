@@ -20,6 +20,6 @@ for i in {0..9}; do
 done
 
 
-if ! prlimit --nofile=8192 lime-qt "$@"; then
+if ! prlimit --nofile=8192 lime3ds-gui "$@"; then
     report_error
 fi

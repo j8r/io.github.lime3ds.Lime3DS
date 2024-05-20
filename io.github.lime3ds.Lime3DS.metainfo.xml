@@ -30,6 +30,20 @@
   </screenshots>
   <releases>
 
+    <release version="2113" date="2024-05-20">
+      <description>
+        <p>- Added realtime audio playback option</p>
+        <p>  - This feature scales audio playback speed to account for drops in emulation framerate</p>
+        <p>    - Using this option may cause a visual-audio desync during context-sensitive scenes (e.g. cutscenes) if lag spikes are encountered</p>
+        <p>- Desktop: Added a button in the help menu which opens the Lime3DS log folder</p>
+        <p>- Non-userfacing changes to how the compatibility list is implemented to allow for easier community contribution</p>
+        <p>‎ </p>
+        <p>Notes:</p>
+        <p>- Compatibility list data has been moved to https://github.com/Lime3DS/compatibility-list. Compatibility reports can be created here via pull request to report an updated compatibility status. Step-by-step instructions on how to do this will be added in the days following this release</p>
+        <p>- While the realtime audio feature was ported from Citra Enhanced, it is worth noting that this iteration has changes which very noticeably improve the consistency and stability of audio playback over the original implementation</p>
+      </description>
+    </release>
+
     <release version="2112" date="2024-05-13">
       <description>
         <p>- Added support for Artic Base</p>

@@ -64,8 +64,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.3.280.0.tar.gz",
-                    "sha256": "703c772a850fa7fbe57a2f8dc99b4c1422a59fa5ff098a80c8ce12fcdf6a2613",
+                    "url": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.3.283.0.tar.gz",
+                    "sha256": "5e2e5158bdd7442f9e01e13b5b33417b06cddff4965c9c19aab9763ab3603aae",
                     "dest": "External/spirv-tools",
                     "x-checker-data": {
                         "type": "anitya",
@@ -76,8 +76,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.3.280.0.tar.gz",
-                    "sha256": "a00906b6bddaac1e37192eff2704582f82ce2d971f1aacee4d51d9db33b0f772",
+                    "url": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.3.283.0.tar.gz",
+                    "sha256": "a68a25996268841073c01514df7bab8f64e2db1945944b45087e5c40eed12cb9",
                     "dest": "External/spirv-tools/external/spirv-headers",
                     "x-checker-data": {
                         "type": "anitya",
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2113/lime3ds-unified-source-20240517-ceb97be.tar.xz",
-                    "sha256": "f8520fbef3e97921942c9d131f7e1977e1caf48739e6c05aebb0b1c9399d9d0b"
+                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2114/lime3ds-unified-source-2114.tar.xz",
+                    "sha256": "e6bc0e6467849a6b0b6c181dafc21eb39614c075ad37e37801220274cfa085b2"
                 },
                 {
                     "type": "file",

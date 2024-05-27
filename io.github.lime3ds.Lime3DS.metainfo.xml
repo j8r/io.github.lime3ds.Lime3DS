@@ -30,12 +30,25 @@
   </screenshots>
   <releases>
 
+    <release version="2114" date="2024-05-27">
+      <description>
+        <p>- Add custom screen layout feature</p>
+        <p>  - This feature is configured in the new Emulation → Configure → Graphics → Layout menu</p>
+        <p>- The proportion the screens in the Large Screen layout can now be configured in the Layout menu</p>
+        <p>- Updated various build dependencies</p>
+        <p>‎ </p>
+        <p>Notes:</p>
+        <p>- Crowd-sourced language translations are now open for Lime3DS. If you have the skills to contribute, for more information please see https://app.transifex.com/lime3ds/lime3ds</p>
+        <p>- The user-contributed compatibility list for Lime3DS mentioned in the previous update is now open. Please see details at https://github.com/Lime3DS/compatibility-list/blob/master/CONTRIBUTING.md</p>
+      </description>
+    </release>
+
     <release version="2113" date="2024-05-20">
       <description>
         <p>- Added realtime audio playback option</p>
         <p>  - This feature scales audio playback speed to account for drops in emulation framerate</p>
         <p>    - Using this option may cause a visual-audio desync during context-sensitive scenes (e.g. cutscenes) if lag spikes are encountered</p>
-        <p>- Desktop: Added a button in the help menu which opens the Lime3DS log folder</p>
+        <p>- Added a button in the help menu which opens the Lime3DS log folder</p>
         <p>- Non-userfacing changes to how the compatibility list is implemented to allow for easier community contribution</p>
         <p>‎ </p>
         <p>Notes:</p>
@@ -47,10 +60,10 @@
     <release version="2112" date="2024-05-13">
       <description>
         <p>- Added support for Artic Base</p>
-        <p>- Desktop: Added favourite game functionality</p>
-        <p>- Desktop: Added play time counter</p>
-        <p>- Windows+Linux: Added game desktop shortcut functionality</p>
-        <p>- Desktop: Updated right-click user interface layout</p>
+        <p>- Added favourite game functionality</p>
+        <p>- Added play time counter</p>
+        <p>- Added game desktop shortcut functionality</p>
+        <p>- Updated right-click user interface layout</p>
         <p>- Updated executable names to follow a new naming scheme</p>
         <p>  - `lime.exe` --> `lime3ds-cli.exe`</p>
         <p>  - `lime-qt.exe` --> `lime3ds-gui.exe`</p>

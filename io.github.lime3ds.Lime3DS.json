@@ -53,8 +53,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/KhronosGroup/glslang/archive/14.2.0.tar.gz",
-                    "sha256": "14a2edbb509cb3e51a9a53e3f5e435dbf5971604b4b833e63e6076e8c0a997b5",
+                    "url": "https://github.com/KhronosGroup/glslang/archive/14.3.0.tar.gz",
+                    "sha256": "be6339048e20280938d9cb399fcdd06e04f8654d43e170e8cce5a56c9a754284",
                     "x-checker-data": {
                         "type": "anitya",
                         "stable-only": true,
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2114/lime3ds-unified-source-2114.tar.xz",
-                    "sha256": "e6bc0e6467849a6b0b6c181dafc21eb39614c075ad37e37801220274cfa085b2"
+                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2115/lime3ds-unified-source-2115.tar.xz",
+                    "sha256": "3bce6074e468a468d1f1e28b497b8b383eae710d0eab9bccd905cee745a08f3e"
                 },
                 {
                     "type": "file",

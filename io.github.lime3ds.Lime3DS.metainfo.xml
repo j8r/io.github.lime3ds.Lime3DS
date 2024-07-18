@@ -30,6 +30,38 @@
   </screenshots>
   <releases>
 
+    <release version="2116" date="2024-07-18">
+      <description>
+        <p>- Migrated to a new user data directory. (@OpenSauce04)</p>
+        <p>  - Users will be prompted to choose whether or not to migrate their data after launching the updated version.</p>
+        <p>- Fixed an issue where using the settings menu could cause the secondary window in the Separate Windows layout to no longer respond to macros. (@OpenSauce04)</p>
+        <p>  - This includes but is not limited to the issue where you could no longer fullscreen the secondary window.</p>
+        <p>- Fixed the ARM64 Linux Flatpak version unintentionally having access to the OpenGL renderer, causing the emulator to be inoperable at default settings. (@OpenSauce04)</p>
+        <p>  - Due to this issue being resolved, the ARM64 Linux Flatpak is now available again after being removed in the previous update.</p>
+        <p>- Removed the "View Game on GameDB" right-click option as the service it links to no longer exists. (@OpenSauce04)</p>
+        <p>- Updated Artic Base integration to support up to Artic Base v1.2.0 and fix various issues. (@PabloMK7 @ https://github.com/PabloMK7/citra)</p>
+        <p>  - This adds a feature which allows the 3DS console to be used as a controller. This is off by default and can be toggled in the input settings.</p>
+        <p>    - Note: This feature increases Artic Base's network usage, and may somewhat negatively impact loading times.</p>
+        <p>- Fixed Realtime Audio setting not working correctly when used at emulation speeds above 100%. (@OpenSauce04)</p>
+        <p>- Corrected dead links in many areas of the user interface. (@ShizCalev)</p>
+        <p>- Updated build dependencies. (@OpenSauce04)</p>
+        <p>‎ </p>
+        <p>Notes:</p>
+        <p>- Open source projects are made great because of contributions from developers like you. If you have an issue you know how to fix, want to see a feature you know how to implement, or have any other contribution you wish to make, our arms are open to submissions from the community.</p>
+      </description>
+    </release>
+
+    <release version="2115" date="2024-06-29">
+      <description>
+        <p>- Added configuration options to allow display stretching in Single Screen and Separated Windows layouts</p>
+        <p>- Updated build dependencies</p>
+        <p>‎ </p>
+        <p>Notes:</p>
+        <p>- The ARM Linux flatpak has been temporarily pulled as of this update due to an issue. No active developers have access to the necessary hardware to debug this issue, so it is difficult to address. Developers with an ARM Linux device, please see issue #124 on our issue tracker for more information on how you can help.</p>
+        <p>- In the last few weeks, development on the emulator has been slow. I have been finishing this academic year of my education, and due to being the primary maintainer of the project, this has affected the release schedule of the emulator. This should be completed by the end of July, so expect a return to a faster pace of development soon. -OpenSauce</p>
+      </description>
+    </release>
+
     <release version="2114" date="2024-05-27">
       <description>
         <p>- Add custom screen layout feature</p>

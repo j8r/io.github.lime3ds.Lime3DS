@@ -29,7 +29,8 @@
         "--share=ipc",
         "--filesystem=host:ro",
         "--filesystem=xdg-run/app/com.discordapp.Discord:ro",
-        "--filesystem=xdg-desktop:create"
+        "--filesystem=xdg-desktop:create",
+        "--filesystem=xdg-data/applications:create"
     ],
     "cleanup": [
         "/include",

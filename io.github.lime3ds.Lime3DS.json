@@ -126,7 +126,6 @@
                 "-DCMAKE_CXX_COMPILER=clang++",
                 "-DCMAKE_LINKER=lld",
                 "-DENABLE_QT_TRANSLATION=ON",
-                "-DCITRA_ENABLE_COMPATIBILITY_REPORTING=ON",
                 "-DUSE_DISCORD_PRESENCE=ON",
                 "-DENABLE_COMPATIBILITY_LIST_DOWNLOAD=OFF",
                 "-DUSE_SYSTEM_SDL2=ON"
@@ -146,8 +145,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2116/lime3ds-unified-source-2116.tar.xz",
-                    "sha256": "c7a60f5e82aa937ed90d292782c4cc00fa442dd820f56df2e21183a5a89b5b81"
+                    "url": "https://github.com/Lime3DS/Lime3DS/releases/download/2117/lime3ds-unified-source-2117.tar.xz",
+                    "sha256": "1171f9df0eb3008f6d909118be173ec69557ae79d4d9b2a7264aa92d84ec9cbc"
                 },
                 {
                     "type": "file",

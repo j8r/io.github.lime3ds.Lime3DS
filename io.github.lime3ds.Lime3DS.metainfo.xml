@@ -30,6 +30,32 @@
   </screenshots>
   <releases>
 
+    <release version="2117" date="2024-08-15">
+      <description>
+        <p>- Fixed a crash caused by invalid cubemap face IDs.</p>
+        <p>-- This addresses crashes in several games.</p>
+        <p>--- Two games known to be affected are "Shin Megami Tensei IV: Apocalypse" and "Fire Emblem Fates".</p>
+        <p>- Fixed the automatically selected interface language sometimes being detected incorrectly.</p>
+        <p>- All hotkeys now work correctly when the secondary window of the "Separate Windows" layout is selected.</p>
+        <p>- The "Report Compatibility" button now links to the Lime3DS compatibility list repository.</p>
+        <p>- Frame advancing can now be used when the emulator is paused.</p>
+        <p>-- Due to this change, the old frame advancing mode has been removed due to redundancy.</p>
+        <p>- Fixed several compounding issues related to game shortcut creation and usage on Flatpak.</p>
+        <p>- The AppImage and Flatpak versions of Lime3DS are now able to use Wayland natively.</p>
+        <p>‎ </p>
+        <p>Notes:</p>
+        <p>- A version of Lime3DS on the Google Play Store is currently being prepared.</p>
+        <p>-- When it goes live, a link to the Play Store page will be added to the project's readme file and an announcement will be posted on our Discord server.</p>
+        <p>--- You can join our Discord community using the link in our readme.</p>
+        <p>- In the upcoming 2118 update, changes will be made which enforce a codebase-wide rebrand of the internals of Lime3DS.</p>
+        <p>-- This will include changes to cmake option names (for example, `CITRA_USE_PRECOMPILED_HEADERS` will become `LIME3DS_USE_PRECOMPILED_HEADERS`.</p>
+        <p>-- Distribution package maintainers should be prepared to correct for this when the update goes live.</p>
+        <p>- Open-source projects are made great because of contributions from developers like you.</p>
+        <p>-- If you have an issue you know how to fix, want to see a feature you know how to implement, or have any other contribution you wish to make, our arms are open to submissions from the community.</p>
+
+      </description>
+    </release>
+
     <release version="2116" date="2024-07-18">
       <description>
         <p>- Migrated to a new user data directory. (@OpenSauce04)</p>

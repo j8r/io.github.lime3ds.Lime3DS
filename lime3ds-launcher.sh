@@ -23,6 +23,6 @@ for i in {0..9}; do
 done
 
 
-if ! prlimit --nofile=8192 lime3ds-gui "$@"; then
+if ! prlimit --nofile=8192 lime3ds "$@"; then
     report_error
 fi

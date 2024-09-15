@@ -15,8 +15,8 @@
   </description>
   <launchable type="desktop-id">io.github.lime3ds.Lime3DS.desktop</launchable>
   <provides>
-    <binary>lime3ds-gui</binary>
-    <id>lime3ds-gui.desktop</id>
+    <binary>lime3ds</binary>
+    <id>lime3ds.desktop</id>
   </provides>
   <url type="homepage">https://lime3ds.github.io/</url>
   <url type="bugtracker">https://github.com/Lime3DS/Lime3DS/issues</url>
@@ -29,6 +29,21 @@
     <screenshot><image>https://raw.githubusercontent.com/Lime3DS/Branding/8a581a8e8bc52b88df82df142b5b4e6d1ef2d2cb/Screenshots/metroid-samus-returns.png</image></screenshot>
   </screenshots>
   <releases>
+
+    <release version="2118" date="2024-09-05">
+      <description>
+        <p>- Fixed a regression introduced in 2117 where hotkeys would not function correctly after using the settings menu</p>
+        <p>- The `lime3ds-cli` executable has been removed</p>
+        <p>-- In its place, you are able to use the GUI program from the command line for the same purpose</p>
+        <p>-- `lime3ds-gui` has been renamed to simply `lime3ds` due to the suffix now being redundant.</p>
+        <p>- The MacOS distribution of Lime3DS is now packaged as a zip archive instead of a tar.gz file</p>
+        <p>-- There is no end-user impact from this change, it is simply made to be more familiar to other MacOS software distributions</p>
+        <p>- Fixed the Vulkan renderer causing crashes on devices that don't support Vulkan 1.3</p>
+        <p>- A "Reverse Side by Side" option has been added for Lime3DS's Stereoscopic 3D mode</p>
+        <p>- The `frame_limit` value in the config file is now stored as a double</p>
+        <p>-- This means that non-integer values can be used for more precise control of the game's framerate than was previously possible</p>
+      </description>
+    </release>
 
     <release version="2117" date="2024-08-15">
       <description>
@@ -52,7 +67,6 @@
         <p>-- Distribution package maintainers should be prepared to correct for this when the update goes live.</p>
         <p>- Open-source projects are made great because of contributions from developers like you.</p>
         <p>-- If you have an issue you know how to fix, want to see a feature you know how to implement, or have any other contribution you wish to make, our arms are open to submissions from the community.</p>
-
       </description>
     </release>
 

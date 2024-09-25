@@ -30,6 +30,20 @@
   </screenshots>
   <releases>
 
+    <release version="2118.1" date="2024-09-25">
+      <description>
+        <p>- Updated various build dependencies.</p>
+        <p>- Added initial support for Pretendo.</p>
+        <p>-- For usage instructions, please use this guide: https://github.com/erew70/website/blob/dev/docs/en_US/install/citra.md</p>
+        <p>‎ </p>
+        <p>Notes:</p>
+        <p>- Lime3DS has now entered closed testing on the Google Play store.</p>
+        <p>-- This closed testing is mandated by Google, and should last roughly 2 weeks.</p>
+        <p>-- If you are able to participate, please do, as active participation of several users is required for the app to progress to a full release.</p>
+        <p>-- For more information, join this Google Groups group and read the message posted in the group: https://groups.google.com/g/lime3ds-closed-testing/</p>
+      </description>
+    </release>
+
     <release version="2118" date="2024-09-05">
       <description>
         <p>- Fixed a regression introduced in 2117 where hotkeys would not function correctly after using the settings menu</p>
